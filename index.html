@@ -7,14 +7,21 @@
     <link rel="stylesheet" href="/index.css">
 </head>
 <body>
-    <div>
+  
+    <div class="container">
+        <h3 id="losses">You have 0 losses</h3>
+        <h3 id="wins">You have 0 wins</h3>
         <h1>Rock-Paper-Scissors Spel</h1>
-        <option value="choice">
-            <select name="Rock" id="Rock">Rock</select>
-            <select name="Paper" id="Paper">Scissors</select>
-            <select name="Scissors" id="Scissors">Scissors</select>
-        </option>
+        <select value="choice" id="choice">
+            <option name="rock" id="Rock">rock</option>
+            <option name="paper" id="Paper">paper</option>
+            <option name="scissors" id="Scissors">scissors</option>
+        </select>
+        <button class="btn" id="submit">Submit</button>
+        <h2 id="computer-Input"></h2>
+       
     </div>
+    
     <script src="index.js"></script>
 </body>
 </html>

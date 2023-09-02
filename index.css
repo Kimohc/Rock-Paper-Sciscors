@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: #79155B;
+ 
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+h1
+{
+    margin: 20px auto;
+}
+h2{
+    margin: 20px auto;
+}
+.btn
+{
+    padding: 10px 25px;
+    font-size: 20px;
+    margin: 10px auto;
+    background-color: #F6635C;
+    color: #fff;
+    transition: 200ms;
+}
+.btn:hover
+{
+    background-color: #FFBA86;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+h3
+{
+    position: relative;
+    left: 40%;
+    font-size: 20px;
+}
